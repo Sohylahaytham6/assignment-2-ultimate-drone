@@ -1,0 +1,201 @@
+@media screen and(max-width: 1023px){
+    .features,
+    .reviews,
+    .products {
+        padding: 50px ;
+    }
+    .header .header-box {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .header .inner,
+    .header .info {
+        width: 100%;
+    }
+    .features .features-content .features-cards {
+        width: 50%;
+    }
+    .features .banner-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .reviews .rating-box {
+        width: 100%;
+        position: sticky;
+    }
+    .reviews .reviews-box {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 24px;
+    }
+    .products .products-card {
+        width: 50%;
+    }
+    .footer .footer-card1,
+    .footer .footer-card2,
+    .footer .footer-card3,
+    .footer .footer-card4 {
+        width: 50%;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px){
+    .nav .nav-box {
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header {
+        padding-top: 160px;
+        padding-bottom: 40px;
+    }
+    .header h1 {
+        font-size: 38px;
+    }
+    .features h2,
+    .reviews h2,
+    .products h2 {
+        font-size: 34px;
+    }
+    .features  .container  p,
+    .reviews  .container  p,
+    .products  .container  p {
+        font-size: 18px;
+    }
+    .footer .footer-icons p {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .footer .payment {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width: 639px){
+    .features,
+    .reviews,
+    .products {
+        padding: 40px;
+    }
+    .nav .right-nav {
+        width: 100%;
+        justify-content: center;
+    }
+    .nav ul {
+        gap: 14px;
+    }
+    .nav a {
+        font-size: 14px;
+    }
+    .header {
+        padding-top: 170px;
+        padding-bottom: 30px;
+    }
+    .header h1 {
+        font-size: 32px;
+    }
+    .header .inner {
+        padding: 14px;
+    }
+    .header .disscount {
+        top: 26px;
+        left: 26px;
+    }
+    .header .tags {
+        gap: 10px;
+    }
+    .header .info p {
+        font-size: 110%;
+    }
+    .header .old-price {
+        font-size: 150%;
+    }
+    .header .buttons .btn-1,
+    .header .buttons .btn-2 {
+        font-size: 110%;
+        padding: 16px 14px;
+    }
+    .features h2,
+    .reviews h2,
+    .products h2 {
+        font-size: 28px;
+    }
+    .features  .container p,
+    .reviews  .container p,
+    .products  .container p {
+        font-size: 16px;
+    }
+    .features .container  p,
+    .products .container  p {
+        padding-bottom: 30px;
+    }
+    .features .features-content .features-cards {
+        width: 100%;
+    }
+    .features-cards .inner {
+        padding: 25px 22px;
+    }
+    .features-cards h3 {
+        font-size: 26px;
+    }
+    .features .banner-box {
+        padding: 24px 20px;
+    }
+    .features .banner-box h3 {
+        font-size: 150%;
+    }
+    .features .banner-box p {
+        font-size: 16px;
+    }
+    .features .banner-box a {
+        font-size: 18px;
+        padding: 14px 24px;
+    }
+    .reviews .rating-box {
+        padding: 30px 20px;
+    }
+     .reviews .rating-box span {
+        font-size: 200%;
+    }
+     .reviews .reviews-card {
+        padding: 18px 16px;
+    }
+    .reviews .reviews-card img {
+        width: 20%;
+    }
+     .reviews .reviews-card .inner {
+        width: 76%;
+        padding-left: 14px;
+    }
+    .reviews .reviews-card .card-right {
+        width: 100%;
+        text-align: left;
+        padding-top: 14px;
+    }
+     .reviews .load-more a {
+        font-size: 16px;
+        padding: 16px 24px;
+    }
+     .products .products-card {
+        width: 100%;
+    }
+     .products .view-all button {
+        font-size: 17px;
+        padding: 16px 28px;
+    }
+    .footer {
+        padding: 50px 0 30px;
+    }
+    .footer .footer-card1,
+    .footer .footer-card2,
+    .footer .footer-card3,
+    .footer .footer-card4 {
+        width: 100%;
+    }
+    
+}
